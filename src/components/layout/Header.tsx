@@ -57,8 +57,12 @@ export default function Header() {
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary-500">🎵</div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/logo.jpg" 
+              alt="옐로뮤직 로고" 
+              className="h-12 w-12 rounded-full object-cover"
+            />
             <span className="text-xl font-bold text-gray-900">옐로뮤직</span>
           </Link>
 
